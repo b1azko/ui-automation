@@ -1,0 +1,50 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 7.201 s <<< FAILURE! - in TestSuite
+runScenario(TestRunner)  Time elapsed: 3.239 s  <<< FAILURE!
+com.google.inject.ProvisionException: 
+Unable to provision, see the following errors:
+
+1) Error injecting constructor, org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'd40253352aaf', ip: '172.17.0.2', os.name: 'Linux', os.arch: 'amd64', os.version: '5.10.76-linuxkit', java.version: '11.0.12'
+Driver info: driver.version: RemoteDriver
+  at test.framework.Initialization.<init>(Initialization.java:11)
+  at test.framework.Initialization.class(Initialization.java:11)
+  while locating test.framework.Initialization
+    for field at stepdefs.AdditionalTaskSteps.initialization(AdditionalTaskSteps.java:15)
+  while locating stepdefs.AdditionalTaskSteps
+
+1 error
+Caused by: org.openqa.selenium.remote.UnreachableBrowserException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'd40253352aaf', ip: '172.17.0.2', os.name: 'Linux', os.arch: 'amd64', os.version: '5.10.76-linuxkit', java.version: '11.0.12'
+Driver info: driver.version: RemoteDriver
+Caused by: java.net.ConnectException: Failed to connect to localhost/127.0.0.1:4444
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+
+runScenario(TestRunner)  Time elapsed: 3.25 s  <<< FAILURE!
+com.google.inject.ProvisionException: 
+Unable to provision, see the following errors:
+
+1) Error injecting constructor, org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'd40253352aaf', ip: '172.17.0.2', os.name: 'Linux', os.arch: 'amd64', os.version: '5.10.76-linuxkit', java.version: '11.0.12'
+Driver info: driver.version: RemoteDriver
+  at test.framework.Initialization.<init>(Initialization.java:11)
+  at test.framework.Initialization.class(Initialization.java:11)
+  while locating test.framework.Initialization
+    for field at stepdefs.AdditionalTaskSteps.initialization(AdditionalTaskSteps.java:15)
+  while locating stepdefs.AdditionalTaskSteps
+
+1 error
+Caused by: org.openqa.selenium.remote.UnreachableBrowserException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'd40253352aaf', ip: '172.17.0.2', os.name: 'Linux', os.arch: 'amd64', os.version: '5.10.76-linuxkit', java.version: '11.0.12'
+Driver info: driver.version: RemoteDriver
+Caused by: java.net.ConnectException: Failed to connect to localhost/127.0.0.1:4444
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+

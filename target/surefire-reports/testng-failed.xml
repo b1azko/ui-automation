@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Dynamic test scenarios]" verbose="0">
+  <parameter name="baseURL" value="https://the-internet.herokuapp.com"/>
+  <test name="Functional tests(failed)">
+    <classes>
+      <class name="TestRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="runScenario" invocation-numbers="0 1"/>
+          <include name="tearDownClass"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- TestRunner -->
+    </classes>
+  </test> <!-- Functional tests(failed) -->
+</suite> <!-- Failed suite [Dynamic test scenarios] -->
